@@ -1,0 +1,15 @@
+{  
+    "manifest_version": 2,  
+    "name": "Auto Refresher",  
+    "description": "This extension is designed to refresh site after certain time",  
+    "version": "1.0",  
+    "browser_action": {  
+        "default_icon": "images/loading.png",  
+        "default_popup": "popup.html"  
+    },  
+    "permissions": [
+        "activeTab",
+        "webNavigation",
+        "*://*/*"
+    ]  
+} 
